@@ -1,0 +1,72 @@
+header {
+display: flex;
+justify-content: space-between;
+padding: 0px 182px;
+max-width: 1204px;
+width: 100%;
+}
+
+.navegacao-interna > li {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #666666;
+
+}
+
+
+.container-navegacao {
+display: flex;
+gap: 50px;
+
+}
+.navegacao-interna {
+
+    display: flex;
+    list-style: none;
+    gap: 30px
+}
+
+.navegacao-externa {
+ display: flex;
+ gap: 21px;
+
+}
+
+.apresentacao-pessoal{
+    padding: 0 174px;
+    margin: 216px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1204px;
+    width: 100%;
+
+}
+.texto-apresentacao{
+    font-weight: 700;
+    font-Size: 58px;
+    Line-height: 70px;
+    color: #42446E;
+    
+    }
+    .meu-nome{
+     background-image: linear-gradient(to right, #13B0F5,#E70FAA);
+     background-clip: text;
+     -webkit-background-clip: text;
+     color:transparent;
+    }
+    .foto-gradient{
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+       
+        background-image: url(./1516920607258.png),
+        radial-gradient(circle at bottom, #13B0F5,#E70FAA);
+        border: 10px solid transparent;
+        background-clip: content-box,border-box;
+        background-origin: border-box;
+        background-size: cover;
+    }
+    
+ 
