@@ -1,3 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700,900%27);
+body {
+    background-color: black;
+    font-family: 'Poppins';
+}
 header {
 display: flex;
 justify-content: space-between;
@@ -61,12 +66,45 @@ gap: 50px;
         height: 350px;
         border-radius: 50%;
        
-        background-image: url(./1516920607258.png),
+        background-image: url(./logos/foto_linkedin_jc.png),
         radial-gradient(circle at bottom, #13B0F5,#E70FAA);
         border: 10px solid transparent;
         background-clip: content-box,border-box;
         background-origin: border-box;
         background-size: cover;
     }
+    .container-imagens {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 40px auto;
+        gap: 100px;
+        max-width: 1224px;
+    }
+    .h1{
+
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #CCCCCC;
+    }
+
+        .paragrafo{
+            font-family: Poppins;
+font-size: 32px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: center;
+color: #CCCCCC;
+
+        }
+.h3{color: #CCCCCC;        }
+
+
+
     
  
